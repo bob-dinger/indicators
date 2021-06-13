@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.batch
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  font-family: 'courier new';
+}
+.bycontentfolder
+{
+  margin-left: 6pt;
+}
+.bylinecontainer
+{
+  width: 100%;
+}
+.contentfolder
+{
+  margin-left: 6pt;
+}
+.contentitem
+{
+  margin-left: 6pt;
+}
+.contents
+{
+}
+.folderaction
+{
+  margin-left: 6pt;
+}
+.graph
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.indexaction
+{
+  margin-left: 6pt;
+}
+.indexitem
+{
+  margin-left: 6pt;
+}
+.list
+{
+  list-style-type: disc;
+}
+.list10
+{
+  list-style-type: square;
+}
+.list2
+{
+  list-style-type: circle;
+}
+.list3
+{
+  list-style-type: square;
+}
+.list4
+{
+  list-style-type: square;
+}
+.list5
+{
+  list-style-type: square;
+}
+.list6
+{
+  list-style-type: square;
+}
+.list7
+{
+  list-style-type: square;
+}
+.list8
+{
+  list-style-type: square;
+}
+.list9
+{
+  list-style-type: square;
+}
+.listitem
+{
+  list-style-type: disc;
+}
+.listitem10
+{
+  list-style-type: square;
+}
+.listitem2
+{
+  list-style-type: circle;
+}
+.listitem3
+{
+  list-style-type: square;
+}
+.listitem4
+{
+  list-style-type: square;
+}
+.listitem5
+{
+  list-style-type: square;
+}
+.listitem6
+{
+  list-style-type: square;
+}
+.listitem7
+{
+  list-style-type: square;
+}
+.listitem8
+{
+  list-style-type: square;
+}
+.listitem9
+{
+  list-style-type: square;
+}
+.output
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.pages
+{
+}
+.pagesitem
+{
+  margin-left: 6pt;
+}
+.systitleandfootercontainer
+{
+  width: 100%;
+}
+.table
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  width: 100%;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="all" frame="box" border="1" summary="Procedure Print: Data Set WORK.TMPAEI1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">SA2C417R</th>
+<th class="r header" scope="col">SB2C417R</th>
+<th class="r header" scope="col">SI2C417R</th>
+<th class="r header" scope="col">S32C417R</th>
+<th class="r header" scope="col">SH2C417R</th>
+<th class="r header" scope="col">S42C417R</th>
+<th class="r header" scope="col">SW2C417R</th>
+<th class="r header" scope="col">S22C417R</th>
+<th class="r header" scope="col">SE2C417R</th>
+<th class="r header" scope="col">SF2C417R</th>
+<th class="r header" scope="col">SM2C417R</th>
+<th class="r header" scope="col">SS2C417R</th>
+<th class="r header" scope="col">SR2C417R</th>
+<th class="r header" scope="col">SL2C417R</th>
+<th class="r header" scope="col">SA3C417R</th>
+<th class="r header" scope="col">SB3C417R</th>
+<th class="r header" scope="col">SI3C417R</th>
+<th class="r header" scope="col">S33C417R</th>
+<th class="r header" scope="col">SH3C417R</th>
+<th class="r header" scope="col">S43C417R</th>
+<th class="r header" scope="col">SW3C417R</th>
+<th class="r header" scope="col">S23C417R</th>
+<th class="r header" scope="col">SE3C417R</th>
+<th class="r header" scope="col">SF3C417R</th>
+<th class="r header" scope="col">SM3C417R</th>
+<th class="r header" scope="col">SS3C417R</th>
+<th class="r header" scope="col">SR3C417R</th>
+<th class="r header" scope="col">SL3C417R</th>
+<th class="r header" scope="col">SAGC417R</th>
+<th class="r header" scope="col">SBGC417R</th>
+<th class="r header" scope="col">SIGC417R</th>
+<th class="r header" scope="col">S3GC417R</th>
+<th class="r header" scope="col">SHGC417R</th>
+<th class="r header" scope="col">S4GC417R</th>
+<th class="r header" scope="col">SWGC417R</th>
+<th class="r header" scope="col">S2GC417R</th>
+<th class="r header" scope="col">SEGC417R</th>
+<th class="r header" scope="col">SFGC417R</th>
+<th class="r header" scope="col">SMGC417R</th>
+<th class="r header" scope="col">SSGC417R</th>
+<th class="r header" scope="col">SRGC417R</th>
+<th class="r header" scope="col">SLGC417R</th>
+<th class="r header" scope="col">SAEC417R</th>
+<th class="r header" scope="col">SBEC417R</th>
+<th class="r header" scope="col">SIEC417R</th>
+<th class="r header" scope="col">S3EC417R</th>
+<th class="r header" scope="col">SHEC417R</th>
+<th class="r header" scope="col">S4EC417R</th>
+<th class="r header" scope="col">SWEC417R</th>
+<th class="r header" scope="col">S2EC417R</th>
+<th class="r header" scope="col">SEEC417R</th>
+<th class="r header" scope="col">SFEC417R</th>
+<th class="r header" scope="col">SMEC417R</th>
+<th class="r header" scope="col">SSEC417R</th>
+<th class="r header" scope="col">SREC417R</th>
+<th class="r header" scope="col">SLEC417R</th>
+<th class="r header" scope="col">SANC417R</th>
+<th class="r header" scope="col">SBNC417R</th>
+<th class="r header" scope="col">SINC417R</th>
+<th class="r header" scope="col">S3NC417R</th>
+<th class="r header" scope="col">SHNC417R</th>
+<th class="r header" scope="col">S4NC417R</th>
+<th class="r header" scope="col">SWNC417R</th>
+<th class="r header" scope="col">S2NC417R</th>
+<th class="r header" scope="col">SENC417R</th>
+<th class="r header" scope="col">SFNC417R</th>
+<th class="r header" scope="col">SMNC417R</th>
+<th class="r header" scope="col">SSNC417R</th>
+<th class="r header" scope="col">SRNC417R</th>
+<th class="r header" scope="col">SLNC417R</th>
+<th class="r header" scope="col">SADC417R</th>
+<th class="r header" scope="col">SBDC417R</th>
+<th class="r header" scope="col">SIDC417R</th>
+<th class="r header" scope="col">S3DC417R</th>
+<th class="r header" scope="col">SHDC417R</th>
+<th class="r header" scope="col">S4DC417R</th>
+<th class="r header" scope="col">SWDC417R</th>
+<th class="r header" scope="col">S2DC417R</th>
+<th class="r header" scope="col">SEDC417R</th>
+<th class="r header" scope="col">SFDC417R</th>
+<th class="r header" scope="col">SMDC417R</th>
+<th class="r header" scope="col">SSDC417R</th>
+<th class="r header" scope="col">SRDC417R</th>
+<th class="r header" scope="col">SLDC417R</th>
+<th class="r header" scope="col">SA2C416R</th>
+<th class="r header" scope="col">SB2C416R</th>
+<th class="r header" scope="col">SI2C416R</th>
+<th class="r header" scope="col">S32C416R</th>
+<th class="r header" scope="col">SH2C416R</th>
+<th class="r header" scope="col">S42C416R</th>
+<th class="r header" scope="col">SW2C416R</th>
+<th class="r header" scope="col">S22C416R</th>
+<th class="r header" scope="col">SE2C416R</th>
+<th class="r header" scope="col">SF2C416R</th>
+<th class="r header" scope="col">SM2C416R</th>
+<th class="r header" scope="col">SS2C416R</th>
+<th class="r header" scope="col">SR2C416R</th>
+<th class="r header" scope="col">SL2C416R</th>
+<th class="r header" scope="col">SA3C416R</th>
+<th class="r header" scope="col">SB3C416R</th>
+<th class="r header" scope="col">SI3C416R</th>
+<th class="r header" scope="col">S33C416R</th>
+<th class="r header" scope="col">SH3C416R</th>
+<th class="r header" scope="col">S43C416R</th>
+<th class="r header" scope="col">SW3C416R</th>
+<th class="r header" scope="col">S23C416R</th>
+<th class="r header" scope="col">SE3C416R</th>
+<th class="r header" scope="col">SF3C416R</th>
+<th class="r header" scope="col">SM3C416R</th>
+<th class="r header" scope="col">SS3C416R</th>
+<th class="r header" scope="col">SR3C416R</th>
+<th class="r header" scope="col">SL3C416R</th>
+<th class="r header" scope="col">SAGC416R</th>
+<th class="r header" scope="col">SBGC416R</th>
+<th class="r header" scope="col">SIGC416R</th>
+<th class="r header" scope="col">S3GC416R</th>
+<th class="r header" scope="col">SHGC416R</th>
+<th class="r header" scope="col">S4GC416R</th>
+<th class="r header" scope="col">SWGC416R</th>
+<th class="r header" scope="col">S2GC416R</th>
+<th class="r header" scope="col">SEGC416R</th>
+<th class="r header" scope="col">SFGC416R</th>
+<th class="r header" scope="col">SMGC416R</th>
+<th class="r header" scope="col">SSGC416R</th>
+<th class="r header" scope="col">SRGC416R</th>
+<th class="r header" scope="col">SLGC416R</th>
+<th class="r header" scope="col">SAEC416R</th>
+<th class="r header" scope="col">SBEC416R</th>
+<th class="r header" scope="col">SIEC416R</th>
+<th class="r header" scope="col">S3EC416R</th>
+<th class="r header" scope="col">SHEC416R</th>
+<th class="r header" scope="col">S4EC416R</th>
+<th class="r header" scope="col">SWEC416R</th>
+<th class="r header" scope="col">S2EC416R</th>
+<th class="r header" scope="col">SEEC416R</th>
+<th class="r header" scope="col">SFEC416R</th>
+<th class="r header" scope="col">SMEC416R</th>
+<th class="r header" scope="col">SSEC416R</th>
+<th class="r header" scope="col">SREC416R</th>
+<th class="r header" scope="col">SLEC416R</th>
+<th class="r header" scope="col">SANC416R</th>
+<th class="r header" scope="col">SBNC416R</th>
+<th class="r header" scope="col">SINC416R</th>
+<th class="r header" scope="col">S3NC416R</th>
+<th class="r header" scope="col">SHNC416R</th>
+<th class="r header" scope="col">S4NC416R</th>
+<th class="r header" scope="col">SWNC416R</th>
+<th class="r header" scope="col">S2NC416R</th>
+<th class="r header" scope="col">SENC416R</th>
+<th class="r header" scope="col">SFNC416R</th>
+<th class="r header" scope="col">SMNC416R</th>
+<th class="r header" scope="col">SSNC416R</th>
+<th class="r header" scope="col">SRNC416R</th>
+<th class="r header" scope="col">SLNC416R</th>
+<th class="r header" scope="col">SADC416R</th>
+<th class="r header" scope="col">SBDC416R</th>
+<th class="r header" scope="col">SIDC416R</th>
+<th class="r header" scope="col">S3DC416R</th>
+<th class="r header" scope="col">SHDC416R</th>
+<th class="r header" scope="col">S4DC416R</th>
+<th class="r header" scope="col">SWDC416R</th>
+<th class="r header" scope="col">S2DC416R</th>
+<th class="r header" scope="col">SEDC416R</th>
+<th class="r header" scope="col">SFDC416R</th>
+<th class="r header" scope="col">SMDC416R</th>
+<th class="r header" scope="col">SSDC416R</th>
+<th class="r header" scope="col">SRDC416R</th>
+<th class="r header" scope="col">SLDC416R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">94.1</td>
+<td class="r data">91.3</td>
+<td class="r data">91.9</td>
+<td class="r data">98.3</td>
+<td class="r data">92.8</td>
+<td class="r data">94.1</td>
+<td class="r data">96.8</td>
+<td class="r data">96.1</td>
+<td class="r data">92.2</td>
+<td class="r data">95.5</td>
+<td class="r data">92.8</td>
+<td class="r data">90.4</td>
+<td class="r data">91.6</td>
+<td class="r data">82.7</td>
+<td class="r data">90.1</td>
+<td class="r data">86.5</td>
+<td class="r data">86.8</td>
+<td class="r data">96.2</td>
+<td class="r data">88</td>
+<td class="r data">89.1</td>
+<td class="r data">94.2</td>
+<td class="r data">92.3</td>
+<td class="r data">87.4</td>
+<td class="r data">92.4</td>
+<td class="r data">87.9</td>
+<td class="r data">77.6</td>
+<td class="r data">84.4</td>
+<td class="r data">73.1</td>
+<td class="r data">89.7</td>
+<td class="r data">86.1</td>
+<td class="r data">86.3</td>
+<td class="r data">96</td>
+<td class="r data">87.7</td>
+<td class="r data">88.6</td>
+<td class="r data">93.6</td>
+<td class="r data">91.7</td>
+<td class="r data">86.9</td>
+<td class="r data">92.1</td>
+<td class="r data">87.3</td>
+<td class="r data">77.4</td>
+<td class="r data">83.8</td>
+<td class="r data">72.9</td>
+<td class="r data">0.4</td>
+<td class="r data">0.4</td>
+<td class="r data">0.6</td>
+<td class="r data">0.1</td>
+<td class="r data">0.4</td>
+<td class="r data">0.5</td>
+<td class="r data">0.6</td>
+<td class="r data">0.6</td>
+<td class="r data">0.5</td>
+<td class="r data">0.3</td>
+<td class="r data">0.6</td>
+<td class="r data">0.2</td>
+<td class="r data">0.6</td>
+<td class="r data">0.2</td>
+<td class="r data">4</td>
+<td class="r data">4.9</td>
+<td class="r data">5.1</td>
+<td class="r data">2.2</td>
+<td class="r data">4.8</td>
+<td class="r data">5</td>
+<td class="r data">2.6</td>
+<td class="r data">3.8</td>
+<td class="r data">4.8</td>
+<td class="r data">3.1</td>
+<td class="r data">4.8</td>
+<td class="r data">12.7</td>
+<td class="r data">7.2</td>
+<td class="r data">9.6</td>
+<td class="r data">5.9</td>
+<td class="r data">8.7</td>
+<td class="r data">8.1</td>
+<td class="r data">1.7</td>
+<td class="r data">7.2</td>
+<td class="r data">5.9</td>
+<td class="r data">3.2</td>
+<td class="r data">3.9</td>
+<td class="r data">7.8</td>
+<td class="r data">4.5</td>
+<td class="r data">7.2</td>
+<td class="r data">9.6</td>
+<td class="r data">8.4</td>
+<td class="r data">17.3</td>
+<td class="r data">93.8</td>
+<td class="r data">90.9</td>
+<td class="r data">92.4</td>
+<td class="r data">98</td>
+<td class="r data">92.5</td>
+<td class="r data">94.3</td>
+<td class="r data">96.6</td>
+<td class="r data">95.3</td>
+<td class="r data">91.5</td>
+<td class="r data">95</td>
+<td class="r data">92.7</td>
+<td class="r data">89.8</td>
+<td class="r data">91.1</td>
+<td class="r data">81.5</td>
+<td class="r data">89.6</td>
+<td class="r data">85.8</td>
+<td class="r data">88</td>
+<td class="r data">95.7</td>
+<td class="r data">87.3</td>
+<td class="r data">88.7</td>
+<td class="r data">94</td>
+<td class="r data">91.5</td>
+<td class="r data">86.5</td>
+<td class="r data">91.8</td>
+<td class="r data">87.6</td>
+<td class="r data">78.1</td>
+<td class="r data">84.1</td>
+<td class="r data">71.5</td>
+<td class="r data">89.1</td>
+<td class="r data">85.4</td>
+<td class="r data">87.4</td>
+<td class="r data">95.7</td>
+<td class="r data">86.9</td>
+<td class="r data">88</td>
+<td class="r data">93.4</td>
+<td class="r data">90.8</td>
+<td class="r data">86</td>
+<td class="r data">91.4</td>
+<td class="r data">86.9</td>
+<td class="r data">77.9</td>
+<td class="r data">83.5</td>
+<td class="r data">71.3</td>
+<td class="r data">0.5</td>
+<td class="r data">0.4</td>
+<td class="r data">0.6</td>
+<td class="r data">0</td>
+<td class="r data">0.4</td>
+<td class="r data">0.6</td>
+<td class="r data">0.7</td>
+<td class="r data">0.7</td>
+<td class="r data">0.5</td>
+<td class="r data">0.3</td>
+<td class="r data">0.6</td>
+<td class="r data">0.3</td>
+<td class="r data">0.6</td>
+<td class="r data">0.2</td>
+<td class="r data">4.2</td>
+<td class="r data">5.1</td>
+<td class="r data">4.4</td>
+<td class="r data">2.2</td>
+<td class="r data">5.2</td>
+<td class="r data">5.7</td>
+<td class="r data">2.6</td>
+<td class="r data">3.8</td>
+<td class="r data">5.1</td>
+<td class="r data">3.2</td>
+<td class="r data">5.1</td>
+<td class="r data">11.6</td>
+<td class="r data">7</td>
+<td class="r data">10</td>
+<td class="r data">6.2</td>
+<td class="r data">9.1</td>
+<td class="r data">7.6</td>
+<td class="r data">2</td>
+<td class="r data">7.5</td>
+<td class="r data">5.7</td>
+<td class="r data">3.4</td>
+<td class="r data">4.7</td>
+<td class="r data">8.5</td>
+<td class="r data">5</td>
+<td class="r data">7.3</td>
+<td class="r data">10.2</td>
+<td class="r data">8.9</td>
+<td class="r data">18.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

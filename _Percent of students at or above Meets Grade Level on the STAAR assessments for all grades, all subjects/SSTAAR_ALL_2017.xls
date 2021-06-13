@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.batch
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  font-family: 'courier new';
+}
+.bycontentfolder
+{
+  margin-left: 6pt;
+}
+.bylinecontainer
+{
+  width: 100%;
+}
+.contentfolder
+{
+  margin-left: 6pt;
+}
+.contentitem
+{
+  margin-left: 6pt;
+}
+.contents
+{
+}
+.folderaction
+{
+  margin-left: 6pt;
+}
+.graph
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.indexaction
+{
+  margin-left: 6pt;
+}
+.indexitem
+{
+  margin-left: 6pt;
+}
+.list
+{
+  list-style-type: disc;
+}
+.list10
+{
+  list-style-type: square;
+}
+.list2
+{
+  list-style-type: circle;
+}
+.list3
+{
+  list-style-type: square;
+}
+.list4
+{
+  list-style-type: square;
+}
+.list5
+{
+  list-style-type: square;
+}
+.list6
+{
+  list-style-type: square;
+}
+.list7
+{
+  list-style-type: square;
+}
+.list8
+{
+  list-style-type: square;
+}
+.list9
+{
+  list-style-type: square;
+}
+.listitem
+{
+  list-style-type: disc;
+}
+.listitem10
+{
+  list-style-type: square;
+}
+.listitem2
+{
+  list-style-type: circle;
+}
+.listitem3
+{
+  list-style-type: square;
+}
+.listitem4
+{
+  list-style-type: square;
+}
+.listitem5
+{
+  list-style-type: square;
+}
+.listitem6
+{
+  list-style-type: square;
+}
+.listitem7
+{
+  list-style-type: square;
+}
+.listitem8
+{
+  list-style-type: square;
+}
+.listitem9
+{
+  list-style-type: square;
+}
+.output
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.pages
+{
+}
+.pagesitem
+{
+  margin-left: 6pt;
+}
+.systitleandfootercontainer
+{
+  width: 100%;
+}
+.table
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  width: 100%;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="all" frame="box" border="1" summary="Procedure Print: Data Set WORK.TMPAEI1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">SA00AR04216R</th>
+<th class="r header" scope="col">SA00AM04216R</th>
+<th class="r header" scope="col">SA00AW04216R</th>
+<th class="r header" scope="col">SA00AC04216R</th>
+<th class="r header" scope="col">SA00AS04216R</th>
+<th class="r header" scope="col">SA00A004216R</th>
+<th class="r header" scope="col">SB00AR04216R</th>
+<th class="r header" scope="col">SB00AM04216R</th>
+<th class="r header" scope="col">SB00AW04216R</th>
+<th class="r header" scope="col">SB00AC04216R</th>
+<th class="r header" scope="col">SB00AS04216R</th>
+<th class="r header" scope="col">SB00A004216R</th>
+<th class="r header" scope="col">SH00AR04216R</th>
+<th class="r header" scope="col">SH00AM04216R</th>
+<th class="r header" scope="col">SH00AW04216R</th>
+<th class="r header" scope="col">SH00AC04216R</th>
+<th class="r header" scope="col">SH00AS04216R</th>
+<th class="r header" scope="col">SH00A004216R</th>
+<th class="r header" scope="col">SW00AR04216R</th>
+<th class="r header" scope="col">SW00AM04216R</th>
+<th class="r header" scope="col">SW00AW04216R</th>
+<th class="r header" scope="col">SW00AC04216R</th>
+<th class="r header" scope="col">SW00AS04216R</th>
+<th class="r header" scope="col">SW00A004216R</th>
+<th class="r header" scope="col">SI00AR04216R</th>
+<th class="r header" scope="col">SI00AM04216R</th>
+<th class="r header" scope="col">SI00AW04216R</th>
+<th class="r header" scope="col">SI00AC04216R</th>
+<th class="r header" scope="col">SI00AS04216R</th>
+<th class="r header" scope="col">SI00A004216R</th>
+<th class="r header" scope="col">S200AR04216R</th>
+<th class="r header" scope="col">S200AM04216R</th>
+<th class="r header" scope="col">S200AW04216R</th>
+<th class="r header" scope="col">S200AC04216R</th>
+<th class="r header" scope="col">S200AS04216R</th>
+<th class="r header" scope="col">S200A004216R</th>
+<th class="r header" scope="col">S300AR04216R</th>
+<th class="r header" scope="col">S300AM04216R</th>
+<th class="r header" scope="col">S300AW04216R</th>
+<th class="r header" scope="col">S300AC04216R</th>
+<th class="r header" scope="col">S300AS04216R</th>
+<th class="r header" scope="col">S300A004216R</th>
+<th class="r header" scope="col">S400AR04216R</th>
+<th class="r header" scope="col">S400AM04216R</th>
+<th class="r header" scope="col">S400AW04216R</th>
+<th class="r header" scope="col">S400AC04216R</th>
+<th class="r header" scope="col">S400AS04216R</th>
+<th class="r header" scope="col">S400A004216R</th>
+<th class="r header" scope="col">SM00AR04216R</th>
+<th class="r header" scope="col">SM00AM04216R</th>
+<th class="r header" scope="col">SM00AW04216R</th>
+<th class="r header" scope="col">SM00AC04216R</th>
+<th class="r header" scope="col">SM00AS04216R</th>
+<th class="r header" scope="col">SM00A004216R</th>
+<th class="r header" scope="col">SF00AR04216R</th>
+<th class="r header" scope="col">SF00AM04216R</th>
+<th class="r header" scope="col">SF00AW04216R</th>
+<th class="r header" scope="col">SF00AC04216R</th>
+<th class="r header" scope="col">SF00AS04216R</th>
+<th class="r header" scope="col">SF00A004216R</th>
+<th class="r header" scope="col">SS00AR04216R</th>
+<th class="r header" scope="col">SS00AM04216R</th>
+<th class="r header" scope="col">SS00AW04216R</th>
+<th class="r header" scope="col">SS00AC04216R</th>
+<th class="r header" scope="col">SS00AS04216R</th>
+<th class="r header" scope="col">SS00A004216R</th>
+<th class="r header" scope="col">SE00AR04216R</th>
+<th class="r header" scope="col">SE00AM04216R</th>
+<th class="r header" scope="col">SE00AW04216R</th>
+<th class="r header" scope="col">SE00AC04216R</th>
+<th class="r header" scope="col">SE00AS04216R</th>
+<th class="r header" scope="col">SE00A004216R</th>
+<th class="r header" scope="col">SR00AR04216R</th>
+<th class="r header" scope="col">SR00AM04216R</th>
+<th class="r header" scope="col">SR00AW04216R</th>
+<th class="r header" scope="col">SR00AC04216R</th>
+<th class="r header" scope="col">SR00AS04216R</th>
+<th class="r header" scope="col">SR00A004216R</th>
+<th class="r header" scope="col">SL00AR04216R</th>
+<th class="r header" scope="col">SL00AM04216R</th>
+<th class="r header" scope="col">SL00AW04216R</th>
+<th class="r header" scope="col">SL00AC04216R</th>
+<th class="r header" scope="col">SL00AS04216R</th>
+<th class="r header" scope="col">SL00A004216R</th>
+<th class="r header" scope="col">SA00AR04217R</th>
+<th class="r header" scope="col">SA00AM04217R</th>
+<th class="r header" scope="col">SA00AW04217R</th>
+<th class="r header" scope="col">SA00AC04217R</th>
+<th class="r header" scope="col">SA00AS04217R</th>
+<th class="r header" scope="col">SA00A004217R</th>
+<th class="r header" scope="col">SB00AR04217R</th>
+<th class="r header" scope="col">SB00AM04217R</th>
+<th class="r header" scope="col">SB00AW04217R</th>
+<th class="r header" scope="col">SB00AC04217R</th>
+<th class="r header" scope="col">SB00AS04217R</th>
+<th class="r header" scope="col">SB00A004217R</th>
+<th class="r header" scope="col">SH00AR04217R</th>
+<th class="r header" scope="col">SH00AM04217R</th>
+<th class="r header" scope="col">SH00AW04217R</th>
+<th class="r header" scope="col">SH00AC04217R</th>
+<th class="r header" scope="col">SH00AS04217R</th>
+<th class="r header" scope="col">SH00A004217R</th>
+<th class="r header" scope="col">SW00AR04217R</th>
+<th class="r header" scope="col">SW00AM04217R</th>
+<th class="r header" scope="col">SW00AW04217R</th>
+<th class="r header" scope="col">SW00AC04217R</th>
+<th class="r header" scope="col">SW00AS04217R</th>
+<th class="r header" scope="col">SW00A004217R</th>
+<th class="r header" scope="col">SI00AR04217R</th>
+<th class="r header" scope="col">SI00AM04217R</th>
+<th class="r header" scope="col">SI00AW04217R</th>
+<th class="r header" scope="col">SI00AC04217R</th>
+<th class="r header" scope="col">SI00AS04217R</th>
+<th class="r header" scope="col">SI00A004217R</th>
+<th class="r header" scope="col">S200AR04217R</th>
+<th class="r header" scope="col">S200AM04217R</th>
+<th class="r header" scope="col">S200AW04217R</th>
+<th class="r header" scope="col">S200AC04217R</th>
+<th class="r header" scope="col">S200AS04217R</th>
+<th class="r header" scope="col">S200A004217R</th>
+<th class="r header" scope="col">S300AR04217R</th>
+<th class="r header" scope="col">S300AM04217R</th>
+<th class="r header" scope="col">S300AW04217R</th>
+<th class="r header" scope="col">S300AC04217R</th>
+<th class="r header" scope="col">S300AS04217R</th>
+<th class="r header" scope="col">S300A004217R</th>
+<th class="r header" scope="col">S400AR04217R</th>
+<th class="r header" scope="col">S400AM04217R</th>
+<th class="r header" scope="col">S400AW04217R</th>
+<th class="r header" scope="col">S400AC04217R</th>
+<th class="r header" scope="col">S400AS04217R</th>
+<th class="r header" scope="col">S400A004217R</th>
+<th class="r header" scope="col">SM00AR04217R</th>
+<th class="r header" scope="col">SM00AM04217R</th>
+<th class="r header" scope="col">SM00AW04217R</th>
+<th class="r header" scope="col">SM00AC04217R</th>
+<th class="r header" scope="col">SM00AS04217R</th>
+<th class="r header" scope="col">SM00A004217R</th>
+<th class="r header" scope="col">SF00AR04217R</th>
+<th class="r header" scope="col">SF00AM04217R</th>
+<th class="r header" scope="col">SF00AW04217R</th>
+<th class="r header" scope="col">SF00AC04217R</th>
+<th class="r header" scope="col">SF00AS04217R</th>
+<th class="r header" scope="col">SF00A004217R</th>
+<th class="r header" scope="col">SS00AR04217R</th>
+<th class="r header" scope="col">SS00AM04217R</th>
+<th class="r header" scope="col">SS00AW04217R</th>
+<th class="r header" scope="col">SS00AC04217R</th>
+<th class="r header" scope="col">SS00AS04217R</th>
+<th class="r header" scope="col">SS00A004217R</th>
+<th class="r header" scope="col">SE00AR04217R</th>
+<th class="r header" scope="col">SE00AM04217R</th>
+<th class="r header" scope="col">SE00AW04217R</th>
+<th class="r header" scope="col">SE00AC04217R</th>
+<th class="r header" scope="col">SE00AS04217R</th>
+<th class="r header" scope="col">SE00A004217R</th>
+<th class="r header" scope="col">SR00AR04217R</th>
+<th class="r header" scope="col">SR00AM04217R</th>
+<th class="r header" scope="col">SR00AW04217R</th>
+<th class="r header" scope="col">SR00AC04217R</th>
+<th class="r header" scope="col">SR00AS04217R</th>
+<th class="r header" scope="col">SR00A004217R</th>
+<th class="r header" scope="col">SL00AR04217R</th>
+<th class="r header" scope="col">SL00AM04217R</th>
+<th class="r header" scope="col">SL00AW04217R</th>
+<th class="r header" scope="col">SL00AC04217R</th>
+<th class="r header" scope="col">SL00AS04217R</th>
+<th class="r header" scope="col">SL00A004217R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">46</td>
+<td class="r data">43</td>
+<td class="r data">41</td>
+<td class="r data">47</td>
+<td class="r data">47</td>
+<td class="r data">45</td>
+<td class="r data">32</td>
+<td class="r data">26</td>
+<td class="r data">28</td>
+<td class="r data">32</td>
+<td class="r data">36</td>
+<td class="r data">30</td>
+<td class="r data">38</td>
+<td class="r data">37</td>
+<td class="r data">34</td>
+<td class="r data">40</td>
+<td class="r data">40</td>
+<td class="r data">37</td>
+<td class="r data">60</td>
+<td class="r data">55</td>
+<td class="r data">53</td>
+<td class="r data">61</td>
+<td class="r data">60</td>
+<td class="r data">59</td>
+<td class="r data">45</td>
+<td class="r data">42</td>
+<td class="r data">37</td>
+<td class="r data">48</td>
+<td class="r data">51</td>
+<td class="r data">45</td>
+<td class="r data">56</td>
+<td class="r data">50</td>
+<td class="r data">49</td>
+<td class="r data">56</td>
+<td class="r data">57</td>
+<td class="r data">54</td>
+<td class="r data">78</td>
+<td class="r data">82</td>
+<td class="r data">75</td>
+<td class="r data">79</td>
+<td class="r data">77</td>
+<td class="r data">80</td>
+<td class="r data">48</td>
+<td class="r data">46</td>
+<td class="r data">44</td>
+<td class="r data">49</td>
+<td class="r data">53</td>
+<td class="r data">47</td>
+<td class="r data">42</td>
+<td class="r data">42</td>
+<td class="r data">34</td>
+<td class="r data">47</td>
+<td class="r data">51</td>
+<td class="r data">43</td>
+<td class="r data">51</td>
+<td class="r data">44</td>
+<td class="r data">48</td>
+<td class="r data">47</td>
+<td class="r data">44</td>
+<td class="r data">47</td>
+<td class="r data">10</td>
+<td class="r data">11</td>
+<td class="r data">8</td>
+<td class="r data">11</td>
+<td class="r data">12</td>
+<td class="r data">9</td>
+<td class="r data">34</td>
+<td class="r data">32</td>
+<td class="r data">30</td>
+<td class="r data">35</td>
+<td class="r data">36</td>
+<td class="r data">32</td>
+<td class="r data">21</td>
+<td class="r data">21</td>
+<td class="r data">18</td>
+<td class="r data">23</td>
+<td class="r data">26</td>
+<td class="r data">20</td>
+<td class="r data">21</td>
+<td class="r data">26</td>
+<td class="r data">24</td>
+<td class="r data">18</td>
+<td class="r data">13</td>
+<td class="r data">19</td>
+<td class="r data">48</td>
+<td class="r data">48</td>
+<td class="r data">38</td>
+<td class="r data">52</td>
+<td class="r data">51</td>
+<td class="r data">48</td>
+<td class="r data">35</td>
+<td class="r data">33</td>
+<td class="r data">26</td>
+<td class="r data">37</td>
+<td class="r data">40</td>
+<td class="r data">34</td>
+<td class="r data">41</td>
+<td class="r data">43</td>
+<td class="r data">32</td>
+<td class="r data">44</td>
+<td class="r data">44</td>
+<td class="r data">41</td>
+<td class="r data">62</td>
+<td class="r data">60</td>
+<td class="r data">48</td>
+<td class="r data">66</td>
+<td class="r data">64</td>
+<td class="r data">61</td>
+<td class="r data">48</td>
+<td class="r data">48</td>
+<td class="r data">35</td>
+<td class="r data">51</td>
+<td class="r data">51</td>
+<td class="r data">48</td>
+<td class="r data">58</td>
+<td class="r data">55</td>
+<td class="r data">45</td>
+<td class="r data">62</td>
+<td class="r data">61</td>
+<td class="r data">56</td>
+<td class="r data">79</td>
+<td class="r data">85</td>
+<td class="r data">72</td>
+<td class="r data">82</td>
+<td class="r data">80</td>
+<td class="r data">82</td>
+<td class="r data">50</td>
+<td class="r data">53</td>
+<td class="r data">42</td>
+<td class="r data">52</td>
+<td class="r data">54</td>
+<td class="r data">50</td>
+<td class="r data">45</td>
+<td class="r data">48</td>
+<td class="r data">32</td>
+<td class="r data">53</td>
+<td class="r data">54</td>
+<td class="r data">46</td>
+<td class="r data">52</td>
+<td class="r data">49</td>
+<td class="r data">44</td>
+<td class="r data">51</td>
+<td class="r data">48</td>
+<td class="r data">50</td>
+<td class="r data">22</td>
+<td class="r data">25</td>
+<td class="r data">19</td>
+<td class="r data">25</td>
+<td class="r data">25</td>
+<td class="r data">22</td>
+<td class="r data">36</td>
+<td class="r data">38</td>
+<td class="r data">28</td>
+<td class="r data">40</td>
+<td class="r data">39</td>
+<td class="r data">36</td>
+<td class="r data">23</td>
+<td class="r data">26</td>
+<td class="r data">16</td>
+<td class="r data">27</td>
+<td class="r data">29</td>
+<td class="r data">23</td>
+<td class="r data">23</td>
+<td class="r data">32</td>
+<td class="r data">23</td>
+<td class="r data">22</td>
+<td class="r data">15</td>
+<td class="r data">22</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

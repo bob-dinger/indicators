@@ -1,0 +1,68 @@
+"SAGDP1 Gross Domestic Product (GDP) summary, annual by state"
+"Real Gross Domestic Product (GDP) (Percent change from preceding period)" 
+"Bureau of Economic Analysis" 
+"State or DC"
+"GeoFips","GeoName","2018-2019"
+"00000","United States",2.2
+"01000","Alabama",1.4
+"02000","Alaska",0.6
+"04000","Arizona",3.1
+"05000","Arkansas",0.6
+"06000","California",3.4
+"08000","Colorado",3.9
+"09000","Connecticut",0.9
+"10000","Delaware",1.8
+"11000","District of Columbia",1.0
+"12000","Florida",2.8
+"13000","Georgia",1.6
+"15000","Hawaii",0.3
+"16000","Idaho",3.4
+"17000","Illinois",0.5
+"18000","Indiana",1.6
+"19000","Iowa",0.4
+"20000","Kansas",1.2
+"21000","Kentucky",1.8
+"22000","Louisiana",2.1
+"23000","Maine",2.6
+"24000","Maryland",1.4
+"25000","Massachusetts",2.4
+"26000","Michigan",0.8
+"27000","Minnesota",1.1
+"28000","Mississippi",0.6
+"29000","Missouri",1.0
+"30000","Montana",2.8
+"31000","Nebraska",2.0
+"32000","Nevada",2.7
+"33000","New Hampshire",1.4
+"34000","New Jersey",1.4
+"35000","New Mexico",5.2
+"36000","New York",1.6
+"37000","North Carolina",1.9
+"38000","North Dakota",0.9
+"39000","Ohio",1.5
+"40000","Oklahoma",2.4
+"41000","Oregon",2.8
+"42000","Pennsylvania",2.4
+"44000","Rhode Island",1.0
+"45000","South Carolina",2.8
+"46000","South Dakota",0.6
+"47000","Tennessee",1.6
+"48000","Texas",2.9
+"49000","Utah",3.8
+"50000","Vermont",0.8
+"51000","Virginia",2.2
+"53000","Washington",4.6
+"54000","West Virginia",0.7
+"55000","Wisconsin",1.4
+"56000","Wyoming",1.3
+"91000","New England",1.8
+"92000","Mideast",1.7
+"93000","Great Lakes",1.1
+"94000","Plains",1.1
+"95000","Southeast",2.0
+"96000","Southwest",3.0
+"97000","Rocky Mountain",3.6
+"98000","Far West",3.4
+"Legend / Footnotes:"
+"Real GDP is in millions of chained 2012 dollars. Calculations are performed on unrounded data. Chained (2012) dollar series are calculated as the product of the chain-type quantity index and the 2012 current-dollar value of the corresponding series, divided by 100. Because the formula for the chain-type quantity indexes uses weights of more than one period, the corresponding chained-dollar estimates are usually not additive. The difference between the United States and sum-of-states reflects federal military and civilian activity located overseas, as well as the differences in source data used to estimate GDP by industry and the expenditures measure of real GDP."
+"Last updated: March 26, 2021-- new statistics for 2020."

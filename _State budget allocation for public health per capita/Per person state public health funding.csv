@@ -1,0 +1,29 @@
+﻿Indicator,Per person state public health funding
+Source,"<div><em>Shortchanging America's Health, Investing in America's Health</em>, <em>The Impact of Chronic Underfunding on America's Public Health System</em>, Trust for America's Health (TFAH).<br />
+<br />
+</div>
+<div><em>Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico</em>, U.S. Census Bureau, Population Division.<br />
+</div>
+<br />
+Suggested Citation:<br />
+SHADAC analysis of [DATA SOURCE], State Health Compare, SHADAC, University of Minnesota, statehealthcompare.shadac.org, Accessed [DATE]."
+Notes,Dollar amount represents state per capita public health funding during the fiscal year. Figures represent state funding only. Data not available for 2006.
+Description,Per capita public health funding in each state.
+
+
+Fips,Location,TimeFrame,Data Type,Data,MOE
+48,Texas,2005,Dollars,14,
+48,Texas,2007,Dollars,15,
+48,Texas,2008,Dollars,16,
+48,Texas,2009,Dollars,16,
+48,Texas,2010,Dollars,19,
+48,Texas,2011,Dollars,20.74,
+48,Texas,2012,Dollars,18.36,
+48,Texas,2013,Dollars,19.31,
+48,Texas,2014,Dollars,22.3,
+48,Texas,2015,Dollars,28,
+48,Texas,2016,Dollars,27.14,
+48,Texas,2017,Dollars,21.57633,
+48,Texas,2018,Dollars,16.92,
+48,Texas,2019,Dollars,17.16,
+48,Texas,2020,Dollars,20.41,

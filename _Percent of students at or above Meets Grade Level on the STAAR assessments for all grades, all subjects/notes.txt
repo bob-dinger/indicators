@@ -1,0 +1,6 @@
+SDA00A001218R
+48
+SDA00A001219R
+50
+
+variables change for 2017

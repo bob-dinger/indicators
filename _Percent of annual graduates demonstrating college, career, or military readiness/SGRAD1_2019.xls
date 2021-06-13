@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.batch
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  font-family: 'courier new';
+}
+.bycontentfolder
+{
+  margin-left: 6pt;
+}
+.bylinecontainer
+{
+  width: 100%;
+}
+.contentfolder
+{
+  margin-left: 6pt;
+}
+.contentitem
+{
+  margin-left: 6pt;
+}
+.contents
+{
+}
+.folderaction
+{
+  margin-left: 6pt;
+}
+.graph
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.indexaction
+{
+  margin-left: 6pt;
+}
+.indexitem
+{
+  margin-left: 6pt;
+}
+.list
+{
+  list-style-type: disc;
+}
+.list10
+{
+  list-style-type: square;
+}
+.list2
+{
+  list-style-type: circle;
+}
+.list3
+{
+  list-style-type: square;
+}
+.list4
+{
+  list-style-type: square;
+}
+.list5
+{
+  list-style-type: square;
+}
+.list6
+{
+  list-style-type: square;
+}
+.list7
+{
+  list-style-type: square;
+}
+.list8
+{
+  list-style-type: square;
+}
+.list9
+{
+  list-style-type: square;
+}
+.listitem
+{
+  list-style-type: disc;
+}
+.listitem10
+{
+  list-style-type: square;
+}
+.listitem2
+{
+  list-style-type: circle;
+}
+.listitem3
+{
+  list-style-type: square;
+}
+.listitem4
+{
+  list-style-type: square;
+}
+.listitem5
+{
+  list-style-type: square;
+}
+.listitem6
+{
+  list-style-type: square;
+}
+.listitem7
+{
+  list-style-type: square;
+}
+.listitem8
+{
+  list-style-type: square;
+}
+.listitem9
+{
+  list-style-type: square;
+}
+.output
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.pages
+{
+}
+.pagesitem
+{
+  margin-left: 6pt;
+}
+.systitleandfootercontainer
+{
+  width: 100%;
+}
+.table
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  width: 100%;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="all" frame="box" border="1" summary="Procedure Print: Data Set WORK.TMPAEI1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">SA0GP18R</th>
+<th class="r header" scope="col">SB0GP18R</th>
+<th class="r header" scope="col">SH0GP18R</th>
+<th class="r header" scope="col">SW0GP18R</th>
+<th class="r header" scope="col">SI0GP18R</th>
+<th class="r header" scope="col">S30GP18R</th>
+<th class="r header" scope="col">S40GP18R</th>
+<th class="r header" scope="col">S20GP18R</th>
+<th class="r header" scope="col">SM0GP18R</th>
+<th class="r header" scope="col">SF0GP18R</th>
+<th class="r header" scope="col">SE0GP18R</th>
+<th class="r header" scope="col">SS0GP18R</th>
+<th class="r header" scope="col">SL0GP18R</th>
+<th class="r header" scope="col">SR0GP18R</th>
+<th class="r header" scope="col">SA1GG18R</th>
+<th class="r header" scope="col">SB1GG18R</th>
+<th class="r header" scope="col">SH1GG18R</th>
+<th class="r header" scope="col">SW1GG18R</th>
+<th class="r header" scope="col">SI1GG18R</th>
+<th class="r header" scope="col">S31GG18R</th>
+<th class="r header" scope="col">S41GG18R</th>
+<th class="r header" scope="col">S21GG18R</th>
+<th class="r header" scope="col">SM1GG18R</th>
+<th class="r header" scope="col">SF1GG18R</th>
+<th class="r header" scope="col">SE1GG18R</th>
+<th class="r header" scope="col">SS1GG18R</th>
+<th class="r header" scope="col">SL1GG18R</th>
+<th class="r header" scope="col">SR1GG18R</th>
+<th class="r header" scope="col">SACRM18R</th>
+<th class="r header" scope="col">SACRR18R</th>
+<th class="r header" scope="col">SACRB18R</th>
+<th class="r header" scope="col">SACRE18R</th>
+<th class="r header" scope="col">SICRM18R</th>
+<th class="r header" scope="col">SICRR18R</th>
+<th class="r header" scope="col">SICRB18R</th>
+<th class="r header" scope="col">SICRE18R</th>
+<th class="r header" scope="col">S4CRM18R</th>
+<th class="r header" scope="col">S4CRR18R</th>
+<th class="r header" scope="col">S4CRB18R</th>
+<th class="r header" scope="col">S4CRE18R</th>
+<th class="r header" scope="col">SBCRM18R</th>
+<th class="r header" scope="col">SBCRR18R</th>
+<th class="r header" scope="col">SBCRB18R</th>
+<th class="r header" scope="col">SBCRE18R</th>
+<th class="r header" scope="col">SHCRM18R</th>
+<th class="r header" scope="col">SHCRR18R</th>
+<th class="r header" scope="col">SHCRB18R</th>
+<th class="r header" scope="col">SHCRE18R</th>
+<th class="r header" scope="col">SWCRM18R</th>
+<th class="r header" scope="col">SWCRR18R</th>
+<th class="r header" scope="col">SWCRB18R</th>
+<th class="r header" scope="col">SWCRE18R</th>
+<th class="r header" scope="col">S2CRM18R</th>
+<th class="r header" scope="col">S2CRR18R</th>
+<th class="r header" scope="col">S2CRB18R</th>
+<th class="r header" scope="col">S2CRE18R</th>
+<th class="r header" scope="col">S3CRM18R</th>
+<th class="r header" scope="col">S3CRR18R</th>
+<th class="r header" scope="col">S3CRB18R</th>
+<th class="r header" scope="col">S3CRE18R</th>
+<th class="r header" scope="col">SMCRM18R</th>
+<th class="r header" scope="col">SMCRR18R</th>
+<th class="r header" scope="col">SMCRB18R</th>
+<th class="r header" scope="col">SMCRE18R</th>
+<th class="r header" scope="col">SFCRM18R</th>
+<th class="r header" scope="col">SFCRR18R</th>
+<th class="r header" scope="col">SFCRB18R</th>
+<th class="r header" scope="col">SFCRE18R</th>
+<th class="r header" scope="col">SSCRM18R</th>
+<th class="r header" scope="col">SSCRR18R</th>
+<th class="r header" scope="col">SSCRB18R</th>
+<th class="r header" scope="col">SSCRE18R</th>
+<th class="r header" scope="col">SECRM18R</th>
+<th class="r header" scope="col">SECRR18R</th>
+<th class="r header" scope="col">SECRB18R</th>
+<th class="r header" scope="col">SECRE18R</th>
+<th class="r header" scope="col">SLCRM18R</th>
+<th class="r header" scope="col">SLCRR18R</th>
+<th class="r header" scope="col">SLCRB18R</th>
+<th class="r header" scope="col">SLCRE18R</th>
+<th class="r header" scope="col">SRCRM18R</th>
+<th class="r header" scope="col">SRCRR18R</th>
+<th class="r header" scope="col">SRCRB18R</th>
+<th class="r header" scope="col">SRCRE18R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">65.5</td>
+<td class="r data">51.1</td>
+<td class="r data">61.8</td>
+<td class="r data">74</td>
+<td class="r data">59.8</td>
+<td class="r data">87</td>
+<td class="r data">60.2</td>
+<td class="r data">68.1</td>
+<td class="r data">64.6</td>
+<td class="r data">66.3</td>
+<td class="r data">58.1</td>
+<td class="r data">62.7</td>
+<td class="r data">45.8</td>
+<td class="r data">49</td>
+<td class="r data">50</td>
+<td class="r data">32.1</td>
+<td class="r data">44.3</td>
+<td class="r data">61.3</td>
+<td class="r data">44.9</td>
+<td class="r data">83</td>
+<td class="r data">40.5</td>
+<td class="r data">55.4</td>
+<td class="r data">46.2</td>
+<td class="r data">53.7</td>
+<td class="r data">38.6</td>
+<td class="r data">7.2</td>
+<td class="r data">24.2</td>
+<td class="r data">25.6</td>
+<td class="r data">46</td>
+<td class="r data">58.2</td>
+<td class="r data">42.1</td>
+<td class="r data">62.1</td>
+<td class="r data">41</td>
+<td class="r data">53.2</td>
+<td class="r data">36.9</td>
+<td class="r data">57.3</td>
+<td class="r data">40</td>
+<td class="r data">54.4</td>
+<td class="r data">36.2</td>
+<td class="r data">58.1</td>
+<td class="r data">31.5</td>
+<td class="r data">46.6</td>
+<td class="r data">27.4</td>
+<td class="r data">50.7</td>
+<td class="r data">38.6</td>
+<td class="r data">51</td>
+<td class="r data">33.9</td>
+<td class="r data">55.7</td>
+<td class="r data">57.9</td>
+<td class="r data">70.2</td>
+<td class="r data">55.4</td>
+<td class="r data">72.8</td>
+<td class="r data">53.1</td>
+<td class="r data">67.6</td>
+<td class="r data">50.8</td>
+<td class="r data">69.9</td>
+<td class="r data">84.8</td>
+<td class="r data">84.8</td>
+<td class="r data">80.1</td>
+<td class="r data">89.5</td>
+<td class="r data">44.2</td>
+<td class="r data">54.7</td>
+<td class="r data">40.2</td>
+<td class="r data">58.7</td>
+<td class="r data">47.8</td>
+<td class="r data">61.7</td>
+<td class="r data">44</td>
+<td class="r data">65.6</td>
+<td class="r data">7.4</td>
+<td class="r data">11.9</td>
+<td class="r data">5</td>
+<td class="r data">14.4</td>
+<td class="r data">34.2</td>
+<td class="r data">46.3</td>
+<td class="r data">29.3</td>
+<td class="r data">51.2</td>
+<td class="r data">19</td>
+<td class="r data">17.3</td>
+<td class="r data">9.9</td>
+<td class="r data">26.4</td>
+<td class="r data">23.1</td>
+<td class="r data">33.7</td>
+<td class="r data">17.8</td>
+<td class="r data">39.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

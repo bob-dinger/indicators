@@ -1,0 +1,487 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.batch
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+  font-family: 'courier new';
+}
+.bycontentfolder
+{
+  margin-left: 6pt;
+}
+.bylinecontainer
+{
+  width: 100%;
+}
+.contentfolder
+{
+  margin-left: 6pt;
+}
+.contentitem
+{
+  margin-left: 6pt;
+}
+.contents
+{
+}
+.folderaction
+{
+  margin-left: 6pt;
+}
+.graph
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.indexaction
+{
+  margin-left: 6pt;
+}
+.indexitem
+{
+  margin-left: 6pt;
+}
+.list
+{
+  list-style-type: disc;
+}
+.list10
+{
+  list-style-type: square;
+}
+.list2
+{
+  list-style-type: circle;
+}
+.list3
+{
+  list-style-type: square;
+}
+.list4
+{
+  list-style-type: square;
+}
+.list5
+{
+  list-style-type: square;
+}
+.list6
+{
+  list-style-type: square;
+}
+.list7
+{
+  list-style-type: square;
+}
+.list8
+{
+  list-style-type: square;
+}
+.list9
+{
+  list-style-type: square;
+}
+.listitem
+{
+  list-style-type: disc;
+}
+.listitem10
+{
+  list-style-type: square;
+}
+.listitem2
+{
+  list-style-type: circle;
+}
+.listitem3
+{
+  list-style-type: square;
+}
+.listitem4
+{
+  list-style-type: square;
+}
+.listitem5
+{
+  list-style-type: square;
+}
+.listitem6
+{
+  list-style-type: square;
+}
+.listitem7
+{
+  list-style-type: square;
+}
+.listitem8
+{
+  list-style-type: square;
+}
+.listitem9
+{
+  list-style-type: square;
+}
+.output
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.pages
+{
+}
+.pagesitem
+{
+  margin-left: 6pt;
+}
+.systitleandfootercontainer
+{
+  width: 100%;
+}
+.table
+{
+  border: 1px solid #000000;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  width: 100%;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="1" cellpadding="7" rules="all" frame="box" border="1" summary="Procedure Print: Data Set WORK.TMPAEI1">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">SA0GP17R</th>
+<th class="r header" scope="col">SB0GP17R</th>
+<th class="r header" scope="col">SH0GP17R</th>
+<th class="r header" scope="col">SW0GP17R</th>
+<th class="r header" scope="col">SI0GP17R</th>
+<th class="r header" scope="col">S30GP17R</th>
+<th class="r header" scope="col">S40GP17R</th>
+<th class="r header" scope="col">S20GP17R</th>
+<th class="r header" scope="col">SM0GP17R</th>
+<th class="r header" scope="col">SF0GP17R</th>
+<th class="r header" scope="col">SE0GP17R</th>
+<th class="r header" scope="col">SS0GP17R</th>
+<th class="r header" scope="col">SL0GP17R</th>
+<th class="r header" scope="col">SR0GP17R</th>
+<th class="r header" scope="col">SA1GG17R</th>
+<th class="r header" scope="col">SB1GG17R</th>
+<th class="r header" scope="col">SH1GG17R</th>
+<th class="r header" scope="col">SW1GG17R</th>
+<th class="r header" scope="col">SI1GG17R</th>
+<th class="r header" scope="col">S31GG17R</th>
+<th class="r header" scope="col">S41GG17R</th>
+<th class="r header" scope="col">S21GG17R</th>
+<th class="r header" scope="col">SM1GG17R</th>
+<th class="r header" scope="col">SF1GG17R</th>
+<th class="r header" scope="col">SE1GG17R</th>
+<th class="r header" scope="col">SS1GG17R</th>
+<th class="r header" scope="col">SL1GG17R</th>
+<th class="r header" scope="col">SR1GG17R</th>
+<th class="r header" scope="col">SACRM17R</th>
+<th class="r header" scope="col">SACRR17R</th>
+<th class="r header" scope="col">SACRB17R</th>
+<th class="r header" scope="col">SACRE17R</th>
+<th class="r header" scope="col">SICRM17R</th>
+<th class="r header" scope="col">SICRR17R</th>
+<th class="r header" scope="col">SICRB17R</th>
+<th class="r header" scope="col">SICRE17R</th>
+<th class="r header" scope="col">S4CRM17R</th>
+<th class="r header" scope="col">S4CRR17R</th>
+<th class="r header" scope="col">S4CRB17R</th>
+<th class="r header" scope="col">S4CRE17R</th>
+<th class="r header" scope="col">SBCRM17R</th>
+<th class="r header" scope="col">SBCRR17R</th>
+<th class="r header" scope="col">SBCRB17R</th>
+<th class="r header" scope="col">SBCRE17R</th>
+<th class="r header" scope="col">SHCRM17R</th>
+<th class="r header" scope="col">SHCRR17R</th>
+<th class="r header" scope="col">SHCRB17R</th>
+<th class="r header" scope="col">SHCRE17R</th>
+<th class="r header" scope="col">SWCRM17R</th>
+<th class="r header" scope="col">SWCRR17R</th>
+<th class="r header" scope="col">SWCRB17R</th>
+<th class="r header" scope="col">SWCRE17R</th>
+<th class="r header" scope="col">S2CRM17R</th>
+<th class="r header" scope="col">S2CRR17R</th>
+<th class="r header" scope="col">S2CRB17R</th>
+<th class="r header" scope="col">S2CRE17R</th>
+<th class="r header" scope="col">S3CRM17R</th>
+<th class="r header" scope="col">S3CRR17R</th>
+<th class="r header" scope="col">S3CRB17R</th>
+<th class="r header" scope="col">S3CRE17R</th>
+<th class="r header" scope="col">SMCRM17R</th>
+<th class="r header" scope="col">SMCRR17R</th>
+<th class="r header" scope="col">SMCRB17R</th>
+<th class="r header" scope="col">SMCRE17R</th>
+<th class="r header" scope="col">SFCRM17R</th>
+<th class="r header" scope="col">SFCRR17R</th>
+<th class="r header" scope="col">SFCRB17R</th>
+<th class="r header" scope="col">SFCRE17R</th>
+<th class="r header" scope="col">SSCRM17R</th>
+<th class="r header" scope="col">SSCRR17R</th>
+<th class="r header" scope="col">SSCRB17R</th>
+<th class="r header" scope="col">SSCRE17R</th>
+<th class="r header" scope="col">SECRM17R</th>
+<th class="r header" scope="col">SECRR17R</th>
+<th class="r header" scope="col">SECRB17R</th>
+<th class="r header" scope="col">SECRE17R</th>
+<th class="r header" scope="col">SLCRM17R</th>
+<th class="r header" scope="col">SLCRR17R</th>
+<th class="r header" scope="col">SLCRB17R</th>
+<th class="r header" scope="col">SLCRE17R</th>
+<th class="r header" scope="col">SRCRM17R</th>
+<th class="r header" scope="col">SRCRR17R</th>
+<th class="r header" scope="col">SRCRB17R</th>
+<th class="r header" scope="col">SRCRE17R</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">54.2</td>
+<td class="r data">36.7</td>
+<td class="r data">49.4</td>
+<td class="r data">64.6</td>
+<td class="r data">51.5</td>
+<td class="r data">82</td>
+<td class="r data">51</td>
+<td class="r data">58.9</td>
+<td class="r data">51.8</td>
+<td class="r data">56.5</td>
+<td class="r data">44.5</td>
+<td class="r data">25.9</td>
+<td class="r data">30</td>
+<td class="r data">31.5</td>
+<td class="r data">47</td>
+<td class="r data">29</td>
+<td class="r data">41.1</td>
+<td class="r data">58.8</td>
+<td class="r data">44.2</td>
+<td class="r data">79.7</td>
+<td class="r data">44.6</td>
+<td class="r data">53.5</td>
+<td class="r data">43.8</td>
+<td class="r data">50.3</td>
+<td class="r data">35.5</td>
+<td class="r data">5.5</td>
+<td class="r data">21</td>
+<td class="r data">21.2</td>
+<td class="r data">42</td>
+<td class="r data">53.2</td>
+<td class="r data">37.8</td>
+<td class="r data">57.4</td>
+<td class="r data">38.8</td>
+<td class="r data">49.5</td>
+<td class="r data">35.5</td>
+<td class="r data">52.9</td>
+<td class="r data">44</td>
+<td class="r data">52.6</td>
+<td class="r data">39.4</td>
+<td class="r data">57.1</td>
+<td class="r data">27.1</td>
+<td class="r data">41.5</td>
+<td class="r data">23.5</td>
+<td class="r data">45</td>
+<td class="r data">34.4</td>
+<td class="r data">45.6</td>
+<td class="r data">29.5</td>
+<td class="r data">50.5</td>
+<td class="r data">54.3</td>
+<td class="r data">65.3</td>
+<td class="r data">50.9</td>
+<td class="r data">68.7</td>
+<td class="r data">50.2</td>
+<td class="r data">63</td>
+<td class="r data">47</td>
+<td class="r data">66.1</td>
+<td class="r data">80.5</td>
+<td class="r data">81</td>
+<td class="r data">74.8</td>
+<td class="r data">86.7</td>
+<td class="r data">40.7</td>
+<td class="r data">50.5</td>
+<td class="r data">36.7</td>
+<td class="r data">54.5</td>
+<td class="r data">43.3</td>
+<td class="r data">55.9</td>
+<td class="r data">38.8</td>
+<td class="r data">60.3</td>
+<td class="r data">5.2</td>
+<td class="r data">8.9</td>
+<td class="r data">3.5</td>
+<td class="r data">10.6</td>
+<td class="r data">30.1</td>
+<td class="r data">40.9</td>
+<td class="r data">25.2</td>
+<td class="r data">45.8</td>
+<td class="r data">14.7</td>
+<td class="r data">14.1</td>
+<td class="r data">7.9</td>
+<td class="r data">20.9</td>
+<td class="r data">17.8</td>
+<td class="r data">27.1</td>
+<td class="r data">13.5</td>
+<td class="r data">31.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿Indicator,Per person state public health funding
+Source,"<div><em>Shortchanging America's Health, Investing in America's Health</em>, <em>The Impact of Chronic Underfunding on America's Public Health System</em>, Trust for America's Health (TFAH).<br />
+<br />
+</div>
+<div><em>Annual Estimates of the Resident Population for the United States, Regions, States, and Puerto Rico</em>, U.S. Census Bureau, Population Division.<br />
+</div>
+<br />
+Suggested Citation:<br />
+SHADAC analysis of [DATA SOURCE], State Health Compare, SHADAC, University of Minnesota, statehealthcompare.shadac.org, Accessed [DATE]."
+Notes,Dollar amount represents state per capita public health funding during the fiscal year. Figures represent state funding only. Data not available for 2006.
+Description,Per capita public health funding in each state.
+
+
+Fips,Location,TimeFrame,Data Type,Data,MOE
+01,Alabama,2020,Dollars,46.81,
+02,Alaska,2020,Dollars,215.15,
+04,Arizona,2020,Dollars,24.34,
+05,Arkansas,2020,Dollars,45.9,
+06,California,2020,Dollars,69.87,
+08,Colorado,2020,Dollars,55.3,
+09,Connecticut,2020,Dollars,35.01,
+10,Delaware,2020,Dollars,36.77,
+11,Dist. of Columbia,2020,Dollars,364.53,
+12,Florida,2020,Dollars,19.59,
+13,Georgia,2020,Dollars,27.78,
+15,Hawaii,2020,Dollars,125.62,
+16,Idaho,2020,Dollars,84.95,
+17,Illinois,2020,Dollars,32.53,
+18,Indiana,2020,Dollars,15,
+19,Iowa,2020,Dollars,85.37,
+20,Kansas,2020,Dollars,14.73,
+21,Kentucky,2020,Dollars,35.89,
+22,Louisiana,2020,Dollars,25.58,
+23,Maine,2020,Dollars,33.82,
+24,Maryland,2020,Dollars,45.07,
+25,Massachusetts,2020,Dollars,86.76,
+26,Michigan,2020,Dollars,17.3,
+27,Minnesota,2020,Dollars,106.83,
+28,Mississippi,2020,Dollars,15.9,
+29,Missouri,2020,Dollars,7.06,
+30,Montana,2020,Dollars,18.91,
+31,Nebraska,2020,Dollars,40.9,
+32,Nevada,2020,Dollars,12.19,
+33,New Hampshire,2020,Dollars,23.61,
+34,New Jersey,2020,Dollars,31.25,
+35,New Mexico,2020,Dollars,151.15,
+36,New York,2020,Dollars,84.87,
+37,North Carolina,2020,Dollars,15.05,
+38,North Dakota,2020,Dollars,61.44,
+39,Ohio,2020,Dollars,15.8,
+40,Oklahoma,2020,Dollars,55.89,
+41,Oregon,2020,Dollars,35.11,
+42,Pennsylvania,2020,Dollars,14.99,
+44,Rhode Island,2020,Dollars,59.16,
+45,South Carolina,2020,Dollars,27.51,
+46,South Dakota,2020,Dollars,36.04,
+47,Tennessee,2020,Dollars,55.38,
+48,Texas,2020,Dollars,20.41,
+49,Utah,2020,Dollars,35.46,
+50,Vermont,2020,Dollars,52.61,
+51,Virginia,2020,Dollars,36.26,
+53,Washington,2020,Dollars,47.95,
+54,West Virginia,2020,Dollars,62.83,
+55,Wisconsin,2020,Dollars,17.67,
+56,Wyoming,2020,Dollars,28.74,
