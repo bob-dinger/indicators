@@ -2,7 +2,7 @@
 
 ## Education
 
-[Average price paid for electricity across all end user sectors](./Average price paid for electricity across all end user sectors//notes.md)
+[Average price paid for electricity across all end user sectors](./Average price paid for electricity across all end user sectors/notes.md)
 
 ## Health
 
