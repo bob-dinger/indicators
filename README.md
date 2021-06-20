@@ -1,11 +1,17 @@
-# indicators
+# Texas 2036 Indicators
 
-[Links](./_Medicaid%20expenditures%20as%20percent%20of%20state%20budget/notes.md)
+## Education
 
-Some Text
+[Average price paid for electricity across all end user sectors](./Average price paid for electricity across all end user sectors//notes.md)
 
-[Links2](./_Medicaid expenditures as percent of state budget/notes.md)
+## Health
 
-More Text
+## Prosperity
 
-[LinksAgain](./Average price paid for electricity across all end user sectors//notes.md)
+## Infrastructure
+
+## Natural Resources
+
+## Justice
+
+## Government
